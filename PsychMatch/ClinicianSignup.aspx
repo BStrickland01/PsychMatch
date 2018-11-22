@@ -10,12 +10,20 @@
             <input type="text" class="form-control" id="firstname" aria-describedby="firstname" placeholder="Enter Firstname">
         </div>
         <div class="form-group">
+            <label for="middlename">Middlename:</label>
+            <input type="text" class="form-control" id="middlename" aria-describedby="middlename" placeholder="Enter Middlename">
+        </div>
+        <div class="form-group">
             <label for="lastname">Lastname:</label>
             <input type="text" class="form-control" id="lastname" aria-describedby="lastname" placeholder="Enter Lastname">
         </div>
         <div class="form-group">
             <label for="email">Email:</label>
             <input type="text" class="form-control" id="email" aria-describedby="email" placeholder="Enter Email">
+        </div>
+        <div class="form-group">
+            <label for="ye">Years Experience:</label>
+            <input type="text" class="form-control" id="ye" aria-describedby="ye" placeholder="Enter Years Experience">
         </div>
         <div class="form-group">
             <label for="password">Password:</label>

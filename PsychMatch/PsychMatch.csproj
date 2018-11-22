@@ -200,6 +200,7 @@
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
     <Content Include="ClinicianSignup.aspx" />
+    <Content Include="CreateClinicianType.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-flatly.css" />
     <Content Include="Content\bootstrap-grid.css" />
@@ -420,6 +421,13 @@
     </Compile>
     <Compile Include="ClinicianSignup.aspx.designer.cs">
       <DependentUpon>ClinicianSignup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CreateClinicianType.aspx.cs">
+      <DependentUpon>CreateClinicianType.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CreateClinicianType.aspx.designer.cs">
+      <DependentUpon>CreateClinicianType.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
